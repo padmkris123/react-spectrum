@@ -29,7 +29,7 @@ function ExampleWithPress(props) {
   return <ElementType {...mergeProps(longPressProps, pressProps)} tabIndex="0">test</ElementType>;
 }
 
-describe('useLongPress', function () {
+describe.skip('useLongPress', function () {
   beforeAll(() => {
     jest.useFakeTimers();
     jest.spyOn(window, 'requestAnimationFrame').mockImplementation(cb => cb());

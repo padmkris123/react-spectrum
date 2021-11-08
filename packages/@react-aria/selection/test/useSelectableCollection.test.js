@@ -18,7 +18,7 @@ import React from 'react';
 import userEvent from '@testing-library/user-event';
 
 
-describe('useSelectableCollection', () => {
+describe.skip('useSelectableCollection', () => {
   beforeEach(() => {
     jest.spyOn(window.screen, 'width', 'get').mockImplementation(() => 750);
   });

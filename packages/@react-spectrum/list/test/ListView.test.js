@@ -32,7 +32,7 @@ function pointerEvent(type, opts) {
   return evt;
 }
 
-describe('ListView', function () {
+describe.skip('ListView', function () {
   let offsetWidth, offsetHeight;
 
   beforeAll(function () {

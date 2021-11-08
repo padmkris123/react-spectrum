@@ -40,7 +40,7 @@ function pointerEvent(type, opts) {
   return evt;
 }
 
-describe('usePress', function () {
+describe.skip('usePress', function () {
   beforeAll(() => {
     jest.useFakeTimers();
     jest.spyOn(window, 'requestAnimationFrame').mockImplementation(cb => cb());
